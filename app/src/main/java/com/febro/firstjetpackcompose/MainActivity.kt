@@ -55,7 +55,7 @@ class MainActivity : ComponentActivity() {
                         }
                     }
 
-                    NameList(names = names, Modifier.fillMaxSize())
+                    NameList(names = names, modifier = Modifier.fillMaxSize())
                 }
             }
         }
